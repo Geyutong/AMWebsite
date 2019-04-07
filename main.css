@@ -1,0 +1,214 @@
+/*Set a font*/
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+html,h1,h2,h3,h4,h5,h6,a,span,div{
+ font-family: "Dosis";
+}
+
+/* define navbar appearance */
+.navbar{
+  background:#123C69;
+  box-shadow: 2px 2px 5px #000;}
+
+.nav-link,.navbar-brand{
+  color: #f4f4f4; cursor: pointer;}
+
+.nav-link{
+  margin-right: 1em !important;}
+
+.nav-link:hover{
+  background: #f4f4f4; color: #f97300;}
+
+.navbar-collapse{
+  justify-content: flex-end;}
+
+.navbar-toggler{
+  background:#fff !important;}
+
+/*header style*/
+.header{
+ background-image: url('https://yourmap.io/wp-content/uploads/2018/06/Skandinavisches-Interior-Design.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+#header2{
+ background-image: url('http://interiorgod.com/wp-content/uploads/2016/03/Cool-Scandinavian-Living-Room.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 104%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ bottom:0;
+ background: rgba(244, 244, 244, 0.60);
+}
+
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color:#123C69;
+}
+.description p{
+ color:#1c1c1c;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+.description button{
+ border:1px  solid #123C69;
+ background:#123C69;
+ color:#fff;
+}
+
+/*styling the About section*/
+.about{
+ margin: 1em;
+ position: relative;
+}
+.about h1{
+  color:#AC3B61;
+  margin: 1em;
+}
+
+.about span{
+ display: block;
+ color: #888;
+ position: absolute;
+ left: 120px;
+}
+.about .desc{
+ padding: 0 2em;
+ border-left:2px solid #AC3B61;
+}
+.about .desc h3{
+ color: #AC3B61;
+}
+.about .desc p{
+ line-height:2;
+ color:#888;
+}
+
+/*styling the portfolio section*/
+.portfolio{
+ margin: 4em 0;
+ position: relative;
+}
+.portfolio h1{
+ color:#AC3B61;
+ margin: 1em;
+}
+.portfolio img{
+  margin: 1em;
+}
+
+/*styling the portfolio details section*/
+.portfolio-details{
+ margin: 4em;
+ position: relative;
+}
+
+.portfolio-details h1{
+ color:#AC3B61;
+ margin: 1em;
+}
+
+.portfolio-details h3{
+ color:#123C69;
+ margin: 1em;
+}
+
+.portfolio-details button{
+ border:1px  solid #AC3B61;
+ background:#AC3B61;
+ color:#fff;
+}
+
+
+/*styling the Featured Items section*/
+.blog{
+ margin: 4em 0;
+ position: relative;
+}
+.blog h1{
+ color:#AC3B61;
+ margin: 2em;
+}
+.blog .card{
+ box-shadow: 0 0 20px #ccc;
+}
+.blog .card img{
+ width: 100%;
+}
+.blog .card-title{
+ color:#123C69;
+
+}
+.blog .card-body{
+ padding: 1em;
+}
+
+.blog .card-link{
+  color:#AC3B61;
+}
+
+/*style the teams*/
+.team{
+ margin: 4em 0;
+ position: relative;
+}
+.team h1{
+ color:#AC3B61;
+ margin: 2em;
+}
+.team .item{
+ position: relative;
+}
+.team .des{
+ background: #123C69;
+ color: #fff;
+ text-align: center;
+ border-bottom-left-radius: 90%;
+ transition:.3s ease-in-out;
+}
+
+.team .item:hover .des{
+ height: 100%;
+ background:rgba(18, 60, 105, 0.60);
+ position: absolute;
+ width: 90%;
+ padding: 5em;
+ top: 0;
+ border-bottom-left-radius: 0;
+}
+
+/*style the Contact Us section*/
+.contact-form{
+ margin: 6em 0;
+ position: relative;
+}
+.contact-form h1{
+ padding:1px;
+ color: #AC3B61;
+}
+.contact-form .right{
+ max-width: 600px;
+}
+.contact-form .right .btn-secondary{
+ background:  #123C69;
+ color: #fff;
+ border:0;
+}
+.contact-form .right .form-control::placeholder{
+ color: #888;
+ font-size: 16px;
+}
