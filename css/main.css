@@ -16,7 +16,7 @@ html,h1,h2,h3,h4,h5,h6,a,span,div{
   margin-right: 1em !important;}
 
 .nav-link:hover{
-  background: #f4f4f4; color: #f97300;}
+  background: #f4f4f4; color: #123C69;}
 
 .navbar-collapse{
   justify-content: flex-end;}
@@ -92,7 +92,13 @@ html,h1,h2,h3,h4,h5,h6,a,span,div{
 }
 .about .desc h3{
  color: #AC3B61;
+ transition: color 1s;
 }
+
+.about .desc h3:hover{
+ color: #123C69;
+}
+
 .about .desc p{
  line-height:2;
  color:#888;
@@ -102,6 +108,7 @@ html,h1,h2,h3,h4,h5,h6,a,span,div{
 .portfolio{
  margin: 4em 0;
  position: relative;
+
 }
 .portfolio h1{
  color:#AC3B61;
@@ -109,6 +116,12 @@ html,h1,h2,h3,h4,h5,h6,a,span,div{
 }
 .portfolio img{
   margin: 1em;
+  transition: transform 0.5s ease-in-out
+}
+
+.portfolio img:hover{
+  transform: scale(1.1)
+
 }
 
 /*styling the portfolio details section*/
@@ -159,6 +172,19 @@ html,h1,h2,h3,h4,h5,h6,a,span,div{
 
 .blog .card-link{
   color:#AC3B61;
+  transition: color 0.5s linear;
+}
+
+.blog .card-link:hover{
+  color:#fff;
+}
+
+.blog.card-footer{
+  transition: background-color 0.5s linear;
+}
+
+.blog .card-footer:hover{
+  background-color:#AC3B61;
 }
 
 /*style the teams*/
@@ -211,4 +237,12 @@ html,h1,h2,h3,h4,h5,h6,a,span,div{
 .contact-form .right .form-control::placeholder{
  color: #888;
  font-size: 16px;
+}
+
+.contact-form .btn {
+  transition:opacity 0.3s linear
+}
+
+.contact-form .btn:hover{
+  opacity: 0.5;
 }
